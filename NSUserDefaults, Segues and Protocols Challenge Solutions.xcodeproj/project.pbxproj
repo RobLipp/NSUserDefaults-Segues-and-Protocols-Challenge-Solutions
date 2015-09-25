@@ -21,6 +21,8 @@
 		D4E24B601BB487D000001E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E24B421BB487D000001E8F /* UIKit.framework */; };
 		D4E24B681BB487D000001E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4E24B661BB487D000001E8F /* InfoPlist.strings */; };
 		D4E24B6A1BB487D000001E8F /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24B691BB487D000001E8F /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionsTests.m */; };
+		D4E24B751BB4897500001E8F /* CCSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24B741BB4897500001E8F /* CCSignInViewController.m */; };
+		D4E24B781BB489A100001E8F /* CCCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24B771BB489A100001E8F /* CCCreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		D4E24B651BB487D000001E8F /* NSUserDefaults, Segues and Protocols Challenge SolutionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge SolutionsTests-Info.plist"; sourceTree = "<group>"; };
 		D4E24B671BB487D000001E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4E24B691BB487D000001E8F /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionsTests.m; sourceTree = "<group>"; };
+		D4E24B731BB4897500001E8F /* CCSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSignInViewController.h; sourceTree = "<group>"; };
+		D4E24B741BB4897500001E8F /* CCSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSignInViewController.m; sourceTree = "<group>"; };
+		D4E24B761BB489A100001E8F /* CCCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCreateAccountViewController.h; sourceTree = "<group>"; };
+		D4E24B771BB489A100001E8F /* CCCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				D4E24B4D1BB487D000001E8F /* CCAppDelegate.h */,
 				D4E24B4E1BB487D000001E8F /* CCAppDelegate.m */,
 				D4E24B501BB487D000001E8F /* Main.storyboard */,
+				D4E24B731BB4897500001E8F /* CCSignInViewController.h */,
+				D4E24B741BB4897500001E8F /* CCSignInViewController.m */,
+				D4E24B761BB489A100001E8F /* CCCreateAccountViewController.h */,
+				D4E24B771BB489A100001E8F /* CCCreateAccountViewController.m */,
 				D4E24B531BB487D000001E8F /* CCViewController.h */,
 				D4E24B541BB487D000001E8F /* CCViewController.m */,
 				D4E24B561BB487D000001E8F /* Images.xcassets */,
@@ -250,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E24B751BB4897500001E8F /* CCSignInViewController.m in Sources */,
 				D4E24B4F1BB487D000001E8F /* CCAppDelegate.m in Sources */,
+				D4E24B781BB489A100001E8F /* CCCreateAccountViewController.m in Sources */,
 				D4E24B4B1BB487D000001E8F /* main.m in Sources */,
 				D4E24B551BB487D000001E8F /* CCViewController.m in Sources */,
 			);
