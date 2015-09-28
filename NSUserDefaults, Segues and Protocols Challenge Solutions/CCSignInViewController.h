@@ -7,13 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CCCreateAccountViewController.h"
 
-@interface CCSignInViewController : UIViewController
+@interface CCSignInViewController : UIViewController <CCCreateAccountViewControllerDelegate>
 
-@property (strong, nonatomic) IBOutlet UITextField *usernameTextField;
-@property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
+@property (strong, nonatomic) IBOutlet UITextField *usernameTextField; // Hook up username text field
+@property (strong, nonatomic) IBOutlet UITextField *passwordTextField; // Hook up password text field
 
-- (IBAction)createAccountBarButtonItemPressed:(UIBarButtonItem *)sender;
-- (IBAction)loginButtonPressed:(UIButton *)sender;
+- (IBAction)createAccountBarButtonItemPressed:(UIBarButtonItem *)sender; // Hook up bar button
+- (IBAction)loginButtonPressed:(UIButton *)sender; // Hook up login button
 
 @end

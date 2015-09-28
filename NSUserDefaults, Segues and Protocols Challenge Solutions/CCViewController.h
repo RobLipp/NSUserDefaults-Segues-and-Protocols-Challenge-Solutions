@@ -10,8 +10,8 @@
 
 @interface CCViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *usernameLabel;
-@property (strong, nonatomic) IBOutlet UILabel *passwordLabel;
+@property (strong, nonatomic) IBOutlet UILabel *usernameLabel; // Hook up user name label
+@property (strong, nonatomic) IBOutlet UILabel *passwordLabel; // Hook up password name label
 
 
 @end
